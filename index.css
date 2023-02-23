@@ -1,0 +1,158 @@
+* {
+margin: 0;
+
+}
+
+button{
+    font-size: 23px;
+    margin: 5px;
+    font-weight:900;
+    height: 90px;
+    width:300px;
+    /*background-color: rgba(38, 107, 197, 0.219);
+    backdrop-filter: blur(0px);
+    border: 1px solid hsla(0,0%,100%,.15);*/
+   border:none;
+    color:rgb(248, 248, 248);
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 3%);
+    background-color: rgba(58, 58, 58, 0.427); 
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(75, 75, 75, 0.753);
+    opacity: 65%;
+    background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
+}
+
+
+
+#mainSection {
+    width: 100%;
+    width: 100vw;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:hsl(0,0%,8%);
+    position:relative;
+    border:none;
+}
+
+.lowerSection {
+    margin: 25px 25px 25px 25px;
+    position: relative;
+}
+
+.lowerContainer {
+
+margin-left: 150px;
+margin-right: 25px;
+ 
+}
+
+
+#codeSection{
+    position:absolute;  
+    align-self: center;
+    top: 2%;   
+    width: 700px; 
+    height:40px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 206, 123);
+    
+}
+
+#styleCode{
+    height:30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    letter-spacing: 5px;
+}
+#styleCode:hover{
+    border-radius: 1px;
+    border: 1px rgba(255, 255, 255, 0.705) solid;
+}
+
+#cssTap{
+    position:absolute;
+    width: 500px;
+    padding-left:70px;
+    padding-top:20px;
+    padding-bottom:50px;
+    padding-right:50px;
+    color:white;
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%); 
+    margin-top: 25px;
+
+}
+
+#cssTapBlur{
+    border: 3px black solid;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    COLOR: WHITE;
+    font-family:roboto;
+    height: 110px;
+}
+
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border:none;
+    font-size: 90px;
+    color: rgb(217, 217, 217);
+    letter-spacing: 18px; 
+}
+
+
+.text{
+    color:rgb(0, 0, 0);
+}
+
+#underlineBtn {
+    text-decoration-line: underline;
+}
+#linkBtn {
+  
+    color:rgba(1, 5, 235, 0.932);
+}
+#linkBtn:hover {
+    cursor: pointer;
+}
+#backgroundColorBtn{
+    background: linear-gradient(90deg, rgba(16,174,177,0.8575805322128851) 34%, rgba(3,203,255,0.4962359943977591) 75%);
+}
+
+#fontFamilyBtn {
+    font-family:fantasy;
+}
+
+
+
+#backgrounImageBtn {
+    background-image: url("./robotwallpaper.png");
+    background-position: 44px;
+    color:white;
+}
+
+#cursorBtn:hover{
+    cursor: pointer;
+}
